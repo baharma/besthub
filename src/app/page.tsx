@@ -1,6 +1,6 @@
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
-import Card from '../components/Card';
+// import Card from '../components/Card';
 import { IconArrowRight } from '@tabler/icons-react';
 
 export default function Home() {
