@@ -1,5 +1,28 @@
 $primary-color: #fa6400;
+$primary-color-hover: #e66510;
 
 .primary-color {
   color: $primary-color;
+}
+
+.picture-card {
+  height: 400px;
+  width: auto;
+}
+
+.btn-primary-besthub {
+  background-color: $primary-color;
+  padding: 10px;
+  border-radius: 10px;
+  &:hover {
+    background-color: $primary-color-hover;
+  }
+}
+
+.font-fasilities-icon {
+  height: 150px;
+  width: auto;
+}
+.backgorund-primary {
+  background-color: $primary-color;
 }

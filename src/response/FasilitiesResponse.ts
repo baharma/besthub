@@ -1,5 +1,5 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-interface CardProps {
+interface FacilitiesResponse {
+  icon: React.ReactNode;
   name: string;
-  imageUrl: string;
 }

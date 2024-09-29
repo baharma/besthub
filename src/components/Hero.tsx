@@ -1,10 +1,9 @@
 // components/Navbar.tsx
-import { IconWifi } from '@tabler/icons-react';
 import React from 'react';
 
 const Hero: React.FC = () => {
   return (
-    <div className="bg-white min-h-screen flex items-center justify-center">
+    <div className="bg-white min-h-screen flex items-center justify-center mb-5">
       <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div className="space-y-6 md:mt-[-200px]">
           <h1 className="text-5xl md:text-7xl font-bold text-black leading-tight">
@@ -45,7 +44,7 @@ const Hero: React.FC = () => {
               className="w-[10%] h-auto rounded-lg mt:mb-[-200px]"
             />
             <p className="text-sm font-medium text-black mt-3">
-              "Bali are very amazing, I enjoy my holiday here"
+              &quot;Bali are very amazing, I enjoy my holiday here&quot;
             </p>
             <p className="text-orange-500 font-bold mt-4 ">FATIMAH</p>
           </div>
